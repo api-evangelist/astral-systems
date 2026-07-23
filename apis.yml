@@ -1,7 +1,29 @@
 aid: astral-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/astral-systems.png
 name: Astral Systems
-description: Astral Systems is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Astral Systems is a fusion-technology company based in Bristol, United
+  Kingdom, developing Multi-State Fusion (MSF) reactors that produce high-flux
+  neutron sources on demand. Co-founded by Talmon Firestone (CEO) and Dr. Tom
+  Wallace-Smith (CTO), the company applies compact, modular fusion to near-term
+  problems: large-scale medical isotope production to address the global isotope
+  shortage affecting cancer diagnosis and treatment, spent fission fuel
+  analysis, neutronics research, industrial neutron irradiation and accelerated
+  lifetime testing, materials-damage testing, nuclear-waste burnup, and hybrid
+  fission/fusion power. It is a Speedinvest deep-tech portfolio company. Astral
+  Systems is a hardware/deep-tech provider and does not currently publish a
+  public API, developer portal, or machine-readable API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/astral-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fusion
+- Nuclear
+- Medical Isotopes
+- Neutron Services
+- Deep Tech
+- Energy
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://astralsystems.com
+- type: About
+  url: https://astralsystems.com/about-astral
+- type: Support
+  url: https://astralsystems.com/contact-us
+- type: Blog
+  url: https://astralsystems.com/news-and-media
+- type: LinkedIn
+  url: https://www.linkedin.com/company/astralsystems/
+- type: DomainSecurity
+  url: security/astral-systems-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
